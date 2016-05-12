@@ -154,3 +154,8 @@ body {
 	margin: 0 !important;
     padding: 0 !important;
 }
+.cont-wrapper {
+	padding: 0px !important;
+	margin: 0px !important;
+	width: 100% !important;
+}

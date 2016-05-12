@@ -74,7 +74,7 @@
 </nav>
 
 
-<div class="container">
+<div class="container cont-wrapper">
 
   <div class="row banner-init">
 	  <div class="col-md-6">
