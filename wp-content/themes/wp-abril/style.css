@@ -13,4 +13,7 @@ body {
 
 .navbar-static-top {
   margin-bottom: 19px;
+  height: 80px;
+  background-color: #ed1c24;
+  border-color: #ed1c24;
 }  
