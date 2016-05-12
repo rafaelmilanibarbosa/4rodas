@@ -14,6 +14,11 @@ body {
 .navbar-static-top {
   margin-bottom: 19px;
   height: 80px;
-  background-color: #ed1c24;
-  border-color: #ed1c24;
+  background-color: #ed1c24 !important;
+  border-color: #ed1c24 !important;
 }  
+.logo {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/logo.png) no-repeat;
+	width: 187px;
+	height: 43px;
+}
