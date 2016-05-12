@@ -83,13 +83,13 @@
 	  </div>
 	  <div class="col-md-6">
 	  	<div class="row">
-	  		<div class="col-mb-6">
+	  		<div class="col-md-6">
 	  			<div class="banner-min ban-min-1">
 	  			</div>
 	  			<div class="banner-min ban-min-2">
 	  			</div>
 	  		</div>
-	  		<div class="col-mb-6">
+	  		<div class="col-md-6">
 	  			<div class="banner-min ban-min-3">
 	  			</div>
 	  			<div class="banner-min ban-min-4">
