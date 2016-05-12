@@ -178,7 +178,7 @@ body {
     -webkit-background-clip: padding-box !important;
     background-clip: padding-box !important;
     border: 1px solid #242424 !important;
-    border-bottom: 3px solid #ED1C24;
+    border-bottom: 1px solid #FF0000 !important;
     border-radius: 0px !important;
     -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.175)  !important;
     width: 100% !important;
