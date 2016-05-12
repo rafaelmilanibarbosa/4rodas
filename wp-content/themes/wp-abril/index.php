@@ -76,23 +76,23 @@
 
 <div class="container">
 
-  <div class="row">
+  <div class="row banner-init">
 	  <div class="col-md-6">
-		  <div class="manner-max">
+		  <div class="banner-max ban-max-1">
 		  </div>
 	  </div>
 	  <div class="col-md-6">
 	  	<div class="row">
 	  		<div class="col-mb-6">
-	  			<div class="banner-min">
+	  			<div class="banner-min ban-min-1">
 	  			</div>
-	  			<div class="banner-min">
+	  			<div class="banner-min ban-min-2">
 	  			</div>
 	  		</div>
 	  		<div class="col-mb-6">
-	  			<div class="banner-min">
+	  			<div class="banner-min ban-min-3">
 	  			</div>
-	  			<div class="banner-min">
+	  			<div class="banner-min ban-min-4">
 	  			</div>
 	  		</div>
 	  	</div>

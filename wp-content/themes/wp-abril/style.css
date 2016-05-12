@@ -7,6 +7,8 @@ Author URI: https://br.linkedin.com/in/raphaelbarbosa
 Version: 1.0
 */
 
+
+/*---------------- FONTES CUSTOMIZADAS ---------------------*/
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700);
 @import url(https://fonts.googleapis.com/css?family=Oswald:700,400,300);
 
@@ -17,6 +19,9 @@ Version: 1.0
 .oswald {
 	font-family: 'Oswald', sans-serif;
 }
+
+
+/*---------------- GERAL ---------------------*/
 body {
   min-height: 2000px;
   background: #e6e6e6 !important;
@@ -31,11 +36,15 @@ body {
   border-color: #ed1c24 !important;
   text-transform: uppercase;
 }  
+
+/*---------------- LOGO ---------------------*/
 .logo {
 	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/logo.png) no-repeat;
 	width: 187px;
 	height: 43px;
 }
+
+/*---------------- BARRA DE NAVEGACAO PRIMARIA ---------------------*/
 .navbar-default .navbar-nav>li>a {
 	color: #FFF !important;
 	outline: none;
@@ -72,6 +81,8 @@ body {
 .navbar-nav2>li>a {
 	padding: 15px 15px !important;
 }
+
+/*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
 	background-color: #242424 !important;
 	border-color: #242424 !important;
@@ -82,4 +93,30 @@ body {
 }
 .navbar-static-top2 .nav2 .navbar-default .navbar-nav>li>a {
 	padding: 0;
+}
+
+/*---------------- BANNER PAGINA INICIAL ---------------------*/
+.banner-init {
+	height: 490px !important;
+}
+.banner-max {
+	height: 490px;
+}
+.banner-min {
+	height: 245px;
+}
+.ban-max-1 {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-1.png) no-repeat;
+}
+.ban-min-1 {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-2.png) no-repeat;
+}
+.ban-min-2 {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-3.png) no-repeat;
+}
+.ban-min-3 {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-4.png) no-repeat;
+}
+.ban-min-4 {
+	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-5.png) no-repeat;
 }
