@@ -64,6 +64,9 @@
         	<li><a href="#">Novo Fox</a></li>
         	<li><a href="#">Novo Ka</a></li>
         	<li><a href="#">HB 20</a></li>
+        	<li><a href="#">Duster</a></li>
+        	<li><a href="#">Golf</a></li>
+        	<li><a href="#">Corolla</a></li>
     	</ul>    
   </div>
 </nav>
