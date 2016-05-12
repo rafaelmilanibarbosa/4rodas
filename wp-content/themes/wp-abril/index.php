@@ -67,6 +67,8 @@
         	<li><a href="#">Duster</a></li>
         	<li><a href="#">Golf</a></li>
         	<li><a href="#">Corolla</a></li>
+        	<li><a href="#">Civic</a></li>
+        	<li><a href="#">|A - Z|</a></li>
     	</ul>    
   </div>
 </nav>
