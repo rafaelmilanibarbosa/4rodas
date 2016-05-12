@@ -39,7 +39,7 @@
           </ul>
         </li>
         <li class="active"><a href="#">Guia de Compras</a></li>
-        <li class="dropdown dropdown-custom">
+        <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tabela Fipe <span class="caret"></span></a>
           <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
