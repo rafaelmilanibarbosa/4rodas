@@ -101,9 +101,11 @@ body {
 }
 .banner-max {
 	height: 490px;
+	cursor: pointer;
 }
 .banner-min {
 	height: 245px;
+	cursor: pointer;
 }
 .ban-max-1 {
 	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-1.png) no-repeat  center center;
