@@ -57,6 +57,11 @@ body {
 	    padding-bottom: 31px  !important;
 	}
 }
+@media (min-width: 768px) {
+	.navbar {
+		border-radius: 0px;
+	}
+}
 .navbar-nav>li>a {
 	padding-top: 28px  !important;
     padding-bottom: 31px !important;
