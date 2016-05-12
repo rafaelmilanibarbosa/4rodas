@@ -61,6 +61,9 @@ body {
 	padding-top: 28px  !important;
     padding-bottom: 31px !important;
 }
-.nav2 {
-	margin-top: 100px;
+.navbar-static-top2 .nav2 {
+	
+}
+.navbar-static-top2 .nav2 .navbar-default .navbar-nav>li>a {
+	padding: 0;
 }

@@ -53,6 +53,9 @@
         <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
       </ul>
     </div><!--/.nav-collapse -->
+</nav>
+<nav class="navbar navbar-default navbar-static-top2">
+  <div class="container">
     <div id="navbar nav2" class="navbar-collapse collapse">
       	<ul class="nav navbar-nav roboto uppercase">
         	<li><a href="#">+ Acessados</a></li>
