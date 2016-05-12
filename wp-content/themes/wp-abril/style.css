@@ -198,3 +198,9 @@ body {
 	text-decoration: none !important;
 	outline: none !important;
 }
+.button_black, .button_black:hover, .button_black:focus, .button_black:active {
+	background: #474747 !important;
+	color: #FFF !important;
+	border: 1px solid #474747 !important;
+	outline: none !important;
+}

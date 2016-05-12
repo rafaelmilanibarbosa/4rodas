@@ -21,7 +21,7 @@
             	
             <div class="row">
             	<div class="col-md-2">
-            	sd
+            		<a href="#" class="button_black">Ver todos os carros</a>
             	</div>
             	<div class="col-md-2">
 	            	<ul>
