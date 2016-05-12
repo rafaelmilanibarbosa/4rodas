@@ -16,32 +16,32 @@
       <ul class="nav navbar-nav roboto uppercase">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Carros <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Testes <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Notícias <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
           </ul>
         </li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Auto-Serviço <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
           </ul>
         </li>
         <li class="active"><a href="#">Guia de Compras</a></li>
-        <li class="dropdown">
+        <li class="dropdown dropdown-custom">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Tabela Fipe <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu dropdown-custom">
             <li><a href="#">Action</a></li>
           </ul>
         </li>
