@@ -120,3 +120,17 @@ body {
 .ban-min-4 {
 	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/banner/ban-5.png) no-repeat;
 }
+
+
+.col-md-6 {
+	margin: 0 !important;
+    padding: 0 !important;
+}
+.col-md-12 {
+	margin: 0 !important;
+    padding: 0 !important;
+}
+.row {
+	margin: 0 !important;
+    padding: 0 !important;
+}
