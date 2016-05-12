@@ -26,6 +26,6 @@ body {
 	color: #FFF;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-	background-color: #ed1c24;
-	color: #FFF;
+	background-color: #ed1c24 !important;
+	color: #FFF !important;
 }
