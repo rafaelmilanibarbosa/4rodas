@@ -187,3 +187,11 @@ body {
     min-height: 67px !important;
     box-shadow: 0px 0px 0px rgba(0,0,0,.175) !important;
 }
+.dropdown-custom .row .col-md-2 ul {
+	list-style: none !important;
+}
+.dropdown-custom .row .col-md-2 ul li a, .dropdown-custom .row .col-md-2 ul li a:hover, .dropdown-custom .row .col-md-2 ul li a:link, .dropdown-custom .row .col-md-2 ul li a:active, .dropdown-custom .row .col-md-2 ul li a:focus {
+	color: #FFF !important;
+	text-decoration: none !important;
+	outline: none !important;
+}
