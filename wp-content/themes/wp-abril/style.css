@@ -55,7 +55,7 @@ body {
 	outline: none;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	background-color: #ed1c24 !important;
+	background-color: #242424 !important;
 	color: #FFF !important;
 	outline: none;
 }
@@ -160,4 +160,31 @@ body {
 	padding: 0px !important;
 	margin: 0px !important;
 	width: 100% !important;
+}
+
+/*---------------- BARRA SELECIONADA CUSTOMIZADA ---------------------*/
+.dropdown-custom {
+	position: fixed;
+    top: 77px;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.175);
+    width: 100%;
+    color: #FFF;
+    background-color: #242424;
+    min-height: 67px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,.175);
 }
