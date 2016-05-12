@@ -13,7 +13,7 @@
       <a class="navbar-brand" href="#"><div class="logo"></div></a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav roboto">
+      <ul class="nav navbar-nav roboto uppercase">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Carros <span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -53,6 +53,15 @@
         <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
       </ul>
     </div><!--/.nav-collapse -->
+    <div id="navbar nav2" class="navbar-collapse collapse">
+      	<ul class="nav navbar-nav roboto uppercase">
+        	<li><a href="#">+ Acessados</a></li>
+        	<li><a href="#">Salão do Automóvel</a></li>
+        	<li><a href="#">Novo Sandero</a></li>
+        	<li><a href="#">Novo Fox</a></li>
+        	<li><a href="#">Novo Ka</a></li>
+        	<li><a href="#">HB 20</a></li>
+    	</ul>    
   </div>
 </nav>
 

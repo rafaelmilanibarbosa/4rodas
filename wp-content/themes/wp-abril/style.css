@@ -21,7 +21,9 @@ body {
   min-height: 2000px;
   background: #e6e6e6 !important;
 }
-
+.uppercase {
+	text-transform: uppercase;
+}
 .navbar-static-top {
   margin-bottom: 19px;
   height: 80px;
@@ -58,4 +60,7 @@ body {
 .navbar-nav>li>a {
 	padding-top: 28px  !important;
     padding-bottom: 31px !important;
+}
+.nav2 {
+	margin-top: 100px;
 }
