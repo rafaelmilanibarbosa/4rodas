@@ -165,7 +165,7 @@ body {
 /*---------------- BARRA SELECIONADA CUSTOMIZADA ---------------------*/
 .dropdown-custom {
 	position: fixed !important;
-    top: 77px !important;
+    top: 76px !important;
     left: 0 !important;
     z-index: 1000 !important;
     float: left !important;
