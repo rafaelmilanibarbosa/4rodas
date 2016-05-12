@@ -27,6 +27,7 @@ body {
   height: 80px;
   background-color: #ed1c24 !important;
   border-color: #ed1c24 !important;
+  text-transform: uppercase;
 }  
 .logo {
 	background: url(http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/logo.png) no-repeat;
