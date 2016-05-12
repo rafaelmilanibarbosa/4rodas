@@ -61,6 +61,10 @@ body {
 	padding-top: 28px  !important;
     padding-bottom: 31px !important;
 }
+.navbar-static-top {
+	background-color: #242424 !important;
+	border-color: #242424 !import
+}
 .navbar-static-top2 .nav2 {
 	
 }
