@@ -164,27 +164,27 @@ body {
 
 /*---------------- BARRA SELECIONADA CUSTOMIZADA ---------------------*/
 .dropdown-custom {
-	position: fixed;
-    top: 77px;
-    left: 0;
-    z-index: 1000;
-    display: none;
-    float: left;
-    min-width: 160px;
-    padding: 5px 0;
-    margin: 2px 0 0;
-    font-size: 14px;
-    text-align: left;
-    list-style: none;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid #ccc;
-    border: 1px solid rgba(0,0,0,.15);
-    border-radius: 0px;
-    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.175);
-    width: 100%;
-    color: #FFF;
-    background-color: #242424;
-    min-height: 67px;
-    box-shadow: 0px 0px 0px rgba(0,0,0,.175);
+	position: fixed !important;
+    top: 77px !important;
+    left: 0 !important;
+    z-index: 1000 !important;
+    display: none !important;
+    float: left !important;
+    min-width: 160px !important;
+    padding: 5px 0 !important;
+    margin: 2px 0 0 !important;
+    font-size: 14px !important;
+    text-align: left !important;
+    list-style: none !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ccc !important;
+    border: 1px solid rgba(0,0,0,.15) !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0px 0px 0px rgba(0,0,0,.175)  !important;
+    width: 100% !important;
+    color: #FFF !important;
+    background-color: #242424 !important;
+    min-height: 67px !important;
+    box-shadow: 0px 0px 0px rgba(0,0,0,.175) !important;
 }
