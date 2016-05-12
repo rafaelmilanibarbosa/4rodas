@@ -39,11 +39,11 @@ body {
 
 @media (min-width: 768px) {
 	.navbar-nav>li>a {
-		padding-top: 28px;
-	    padding-bottom: 31px;
+		padding-top: 28px  !important;
+	    padding-bottom: 31px  !important;
 	}
 }
 .navbar-nav>li>a {
-	padding-top: 28px;
-    padding-bottom: 31px;
+	padding-top: 28px  !important;
+    padding-bottom: 31px !important;
 }
