@@ -94,7 +94,7 @@ body {
 
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
-
+	top: 160px !important;
 	background-color: #242424 !important;
 	border-color: #242424 !important;
 	margin-bottom: 19px !important;
