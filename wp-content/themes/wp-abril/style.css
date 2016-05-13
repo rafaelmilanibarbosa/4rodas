@@ -93,6 +93,15 @@ body {
 	padding: 15px 15px !important;
 }
 
+/*---------------- BARRA DE NAVEGACAO ADDS ---------------------*/
+.navbar-default.navbar-static-top-init .container {
+	height: 80px;
+}
+.banner-adds {
+	border: 1px solid #CCC !important;
+	background: #FFF !important;
+	border-radius: 2px !important;
+}
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
 	top: 160px !important;
