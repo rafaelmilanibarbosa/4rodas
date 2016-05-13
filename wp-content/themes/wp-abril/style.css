@@ -33,7 +33,7 @@ body {
   position: fixed !important;
   width: 100%;		
   top: 0px;
-  height: 80px;
+  height: 118px;
   background: #e6e6e6 !important;
   z-index: 999 !important;
 }
@@ -102,7 +102,7 @@ body {
 	background: #FFF !important;
 	border-radius: 2px !important;
 	margin-top: 8px;
-	height: 89px;
+	height: 90px;
 }
 .btn-top {
 	padding: 4px !important;
@@ -116,6 +116,16 @@ body {
 }
 .top-img {
 	width: 76px;
+}
+.barright {
+	position: absolute;
+	top: 0;
+	right:0;
+}
+.hsbc {
+	position: absolute;
+	top: 30px;
+	right: 20px;
 }
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
