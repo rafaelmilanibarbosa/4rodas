@@ -202,13 +202,13 @@
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-1.png" class="img-responsive">
       </div>
-      <div class="news-title">
+      <div class="news-title roboto uppercase">
         AUDI S3 X MERCEDES-BENZ CLA 45 AMG
       </div>
       <div class="news-desc">
         Pista livre para o embate entre os dois cometas de cauda curta
       </div>
-      <div class="news-link">
+      <div class="news-link roboto uppercase">
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
@@ -216,13 +216,13 @@
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-2.png" class="img-responsive">
       </div>
-      <div class="news-title">
+      <div class="news-title roboto uppercase">
         NISSAN GT-R
       </div>
       <div class="news-desc">
         Pilotamos o Godzilla, o monstro recordista do Núrbirging que assombra os alemães
       </div>
-      <div class="news-link">
+      <div class="news-link roboto uppercase">
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
@@ -230,13 +230,13 @@
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-3.png" class="img-responsive">
       </div>
-      <div class="news-title">
+      <div class="news-title roboto uppercase">
         BMW SÉRIE 2 ACTIVE TOURER
       </div>
       <div class="news-desc">
         Pista livre para o embate entre os dois cometas de cauda curta
       </div>
-      <div class="news-link">
+      <div class="news-link roboto uppercase">
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
@@ -244,13 +244,13 @@
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-4.png" class="img-responsive">
       </div>
-      <div class="news-title">
+      <div class="news-title roboto uppercase">
         CHEVROLET MOSTRA NOVA GERAÇÃO DO MALIBU
       </div>
       <div class="news-desc">
         Sedã perdeu 136 kg e ampliou o espaço entre eixos
       </div>
-      <div class="news-link">
+      <div class="news-link roboto uppercase">
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
