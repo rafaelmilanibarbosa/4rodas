@@ -114,6 +114,9 @@ body {
 .c-r {
 	color: #ed1c24;
 }
+.top-img {
+	width: 76px;
+}
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
 	top: 160px !important;

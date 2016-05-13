@@ -6,7 +6,7 @@
       <div class="col-md-8 col-md-offset-2 banner-adds">
         <div class="row">
           <div class="col-md-2">
-            <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/adds1.png" class="img-responsive">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/adds1.png" class="img-responsive top-img">
           </div>
           <div class="col-md-8 roboto">
             <div class="title-top">Financiamento de Veículos do HSBC</div>
