@@ -38,6 +38,7 @@ body {
 }
 .navbar-static-top {
   position: fixed !important;
+  top: 80px;
   width: 100%;		
   margin-bottom: 0px !important;
   height: 80px;
@@ -170,6 +171,7 @@ body {
 	padding: 0px !important;
 	margin: 0px !important;
 	width: 100% !important;
+	margin-top: 160px !important;
 }
 
 /*---------------- BARRA SELECIONADA CUSTOMIZADA ---------------------*/
