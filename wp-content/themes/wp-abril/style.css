@@ -29,7 +29,7 @@ body {
 .uppercase {
 	text-transform: uppercase;
 }
-.navbar-static-top-init {
+.navbar-default.navbar-static-top-init {
   position: fixed !important;
   width: 100%;		
   top: 0px;
