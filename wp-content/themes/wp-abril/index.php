@@ -2,13 +2,11 @@
 <!-- adds -->
 <nav class="navbar navbar-default navbar-static-top-init">
   <div class="container">
-    <div class="navbar-header">
-      <div class="row">
-        <div class="col-md-8 .col-md-offset-2 banner-adds">
-        dsdsdsd
-        </div>
+    <div class="row">
+      <div class="col-md-8 .col-md-offset-2 banner-adds">
+      dsdsdsd
       </div>
-    </div>
+    </div>    
   </div>
 </nav>
 
