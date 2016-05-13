@@ -238,7 +238,7 @@ body {
 .news .col-md-3:last-child {
 	padding-right: 0px !important;
 }
-.news-top-image {
+.news-top-image img {
 	width: 100%;
 }
 .news-title {
@@ -251,4 +251,5 @@ body {
 .news-link {
 	color: #ed1c24;
 	font-size: 14px;
+	font-weight: bold;
 }
