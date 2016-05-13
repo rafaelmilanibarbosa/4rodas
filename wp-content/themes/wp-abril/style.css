@@ -211,12 +211,13 @@ body {
 }
 
 .search-nav-form {
-	margin-top: 22px;
+	margin-top: 22px !important;
 }
 #inputSuccess2 {
 	border-radius: 0px;
+	border: none !important;
 }
 .form-control-feedback {
 	margin-top: 8px;
-	color: #ccc;	
+	color: #A5A5A5 !important;	
 }
