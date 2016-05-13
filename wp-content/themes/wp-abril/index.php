@@ -10,7 +10,7 @@
           </div>
           <div class="col-md-8 roboto">
             <div class="title-top">Financiamento de Veículos do HSBC</div>
-            <button class="btn btn-default" class="btn-top"><i class="caret-right c-r"></i> Faça uma simunação aqui.</button>
+            <button class="btn btn-default" class="btn-top"><i class="fa fa-caret-right c-r" aria-hidden="true"></i> Faça uma simunação aqui.</button>
           </div>
           <div class="col-md-2">
           </div>
