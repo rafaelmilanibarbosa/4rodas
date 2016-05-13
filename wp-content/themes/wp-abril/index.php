@@ -198,7 +198,7 @@
 
   <!-- NEWS -->
   <div class="row news">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-1.png" class="img-responsive">
       </div>
@@ -212,7 +212,7 @@
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-2.png" class="img-responsive">
       </div>
@@ -226,7 +226,7 @@
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-3.png" class="img-responsive">
       </div>
@@ -240,7 +240,7 @@
         >>TROLLER T4X JEEP RENEGADE
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="news-top-image">
         <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-4.png" class="img-responsive">
       </div>

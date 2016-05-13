@@ -210,6 +210,7 @@ body {
     text-decoration: none !important;
 }
 
+/*---------------- SEARCH FORM ---------------------*/
 .search-nav-form {
 	margin-top: 22px !important;
 }
@@ -220,4 +221,10 @@ body {
 .form-control-feedback {
 	margin-top: 8px;
 	color: #A5A5A5 !important;	
+}
+
+/*---------------- NEWS SECTION ---------------------*/
+.news .col-md-4 {
+	padding-left: 40px !important;
+	padding-right: 40px !important;
 }
