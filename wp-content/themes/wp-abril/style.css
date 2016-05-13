@@ -105,7 +105,7 @@ body {
 	height: 60px;
 }
 .btn-top {
-
+	padding: 4px !important;
 }
 .title-top {
 	font-size: 14px;
