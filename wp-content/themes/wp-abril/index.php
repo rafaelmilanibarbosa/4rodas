@@ -13,6 +13,8 @@
             <button class="btn btn-default" class="btn-top"><i class="fa fa-caret-right c-r" aria-hidden="true"></i> Faça uma simunação aqui.</button>
           </div>
           <div class="col-md-2">
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/hsbc.png" class="img-responsive hsbc">  
+          <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/barright.png" class="img-responsive barright">
           </div>
         </div>
       </div>
