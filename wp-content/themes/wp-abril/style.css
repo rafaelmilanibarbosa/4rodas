@@ -209,3 +209,14 @@ body {
     text-align: center;
     text-decoration: none !important;
 }
+
+.search-nav-form {
+	margin-top: 22px;
+}
+#inputSuccess2 {
+	border-radius: 0px;
+}
+.form-control-feedback {
+	margin-top: 8px;
+	color: #ccc;	
+}
