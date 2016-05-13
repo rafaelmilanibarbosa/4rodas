@@ -101,6 +101,8 @@ body {
 	border: 1px solid #CCC !important;
 	background: #FFF !important;
 	border-radius: 2px !important;
+	margin-top: 8px;
+	height: 60px;
 }
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
