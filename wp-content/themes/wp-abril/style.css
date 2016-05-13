@@ -238,3 +238,17 @@ body {
 .news .col-md-3:last-child {
 	padding-right: 0px !important;
 }
+.news-top-image {
+	width: 100%;
+}
+.news-title {
+	font-weight: bold;
+	font-size: 18px;
+}
+.news-desc {
+	font-size: 10px;
+}
+.news-link {
+	color: #ed1c24;
+	font-size: 14px;
+}
