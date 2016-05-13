@@ -227,6 +227,9 @@ body {
 .news  {
 	margin-top: 15px;
 }
-.news .col-md-4 {
-
+.news .col-md-3 {
+	padding: 0px !important;
+}
+.news .col-md-3:first {
+	border: 1px solid #FF0000;
 }
