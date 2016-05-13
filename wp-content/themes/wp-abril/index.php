@@ -4,7 +4,17 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 banner-adds">
-      dsdsdsd
+        <div class="row">
+          <div class="col-md-2">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/adds1.png" class="img-responsive">
+          </div>
+          <div class="col-md-8">
+            <h2>Financiamento de Veículos do HSBC</h2>
+            <button class="btn btn-default">Faça uma simunação aqui.</button>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
       </div>
     </div>    
   </div>
