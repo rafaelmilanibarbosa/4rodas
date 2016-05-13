@@ -39,7 +39,6 @@ body {
 .navbar-static-top {
   position: fixed;
   width: 100%;		
-  top: 80px;
   margin-bottom: 0px !important;
   height: 80px;
   background-color: #ed1c24 !important;
@@ -94,6 +93,7 @@ body {
 
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
+
 	background-color: #242424 !important;
 	border-color: #242424 !important;
 	margin-bottom: 19px !important;
