@@ -9,6 +9,7 @@
   	<!-- carregando style.css da raiz do tema caos exista -->
   	<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
   	<link href="<?php bloginfo('template_directory'); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/font-awesome.min.css">
 
   	<!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->

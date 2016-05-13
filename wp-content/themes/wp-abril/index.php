@@ -143,7 +143,7 @@
       <form class="navbar-form navbar-right">
         <div class="form-group has-success has-feedback">
           <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="PESQUISAR">
-          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+          <i class="fa fa-search form-control-feedback" aria-hidden="true"></i>
         </div>        
       </form>
     </div><!--/.nav-collapse -->
