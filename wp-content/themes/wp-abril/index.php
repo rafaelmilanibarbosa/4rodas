@@ -8,7 +8,7 @@
           <div class="col-md-2">
             <img src="<?php bloginfo('template_directory'); ?>/assets/images/adds/adds1.png" class="img-responsive top-img">
           </div>
-          <div class="col-md-8 roboto">
+          <div class="col-md-8 roboto center-top">
             <div class="title-top">Financiamento de Veículos do HSBC</div>
             <button class="btn btn-default" class="btn-top"><i class="fa fa-caret-right c-r" aria-hidden="true"></i> Faça uma simunação aqui.</button>
           </div>

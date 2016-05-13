@@ -116,6 +116,7 @@ body {
 }
 .top-img {
 	width: 76px;
+	margin-top: 12px;
 }
 .barright {
 	position: absolute;
@@ -126,6 +127,9 @@ body {
 	position: absolute;
 	top: 30px;
 	right: 20px;
+}
+.center-top {
+	margin-top: 15px;
 }
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
