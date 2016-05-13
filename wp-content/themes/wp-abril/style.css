@@ -230,6 +230,6 @@ body {
 .news .col-md-3 {
 	padding: 0px !important;
 }
-.news .col-md-3:first {
+.news .col-md-3:first-child {
 	border: 1px solid #FF0000;
 }
