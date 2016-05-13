@@ -104,6 +104,16 @@ body {
 	margin-top: 8px;
 	height: 60px;
 }
+.btn-top {
+
+}
+.title-top {
+	font-size: 14px;
+	font-weight: bold;
+}
+.c-r {
+	color: #ed1c24;
+}
 /*---------------- BARRA DE NAVEGACAO SECUNDARIA ---------------------*/
 .navbar-static-top2 {
 	top: 160px !important;
