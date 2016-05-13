@@ -30,14 +30,14 @@ body {
 	text-transform: uppercase;
 }
 .navbar-static-top-init {
-  position: fixed;
+  position: fixed !important;
   width: 100%;		
   top: 0px;
   height: 80px;
   background: #e6e6e6 !important;
 }
 .navbar-static-top {
-  position: fixed;
+  position: fixed !important;
   width: 100%;		
   margin-bottom: 0px !important;
   height: 80px;
