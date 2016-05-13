@@ -136,16 +136,18 @@
         <li><a href="#contact">ASSINE</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
+        <li>
+          <form class="navbar-form navbar-right search-nav-form">
+            <div class="form-group has-success has-feedback">
+              <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="PESQUISAR">
+              <i class="fa fa-search form-control-feedback" aria-hidden="true"></i>
+            </div>        
+          </form>
+        </li>
         <!-- <li><a href="../navbar/">Default</a></li>
         <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
         <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
-      </ul>
-      <form class="navbar-form navbar-right">
-        <div class="form-group has-success has-feedback">
-          <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="PESQUISAR">
-          <i class="fa fa-search form-control-feedback" aria-hidden="true"></i>
-        </div>        
-      </form>
+      </ul>      
     </div><!--/.nav-collapse -->
 </nav>
 <nav class="navbar navbar-default navbar-static-top2">
