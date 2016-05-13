@@ -133,13 +133,19 @@
             <li><a href="#">Action</a></li>
           </ul>
         </li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">ASSINE</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <!-- <li><a href="../navbar/">Default</a></li>
         <li class="active"><a href="./">Static top <span class="sr-only">(current)</span></a></li>
         <li><a href="../navbar-fixed-top/">Fixed top</a></li> -->
       </ul>
+      <form class="navbar-form navbar-right">
+        <div class="form-group has-success has-feedback">
+          <input type="text" class="form-control" id="inputSuccess2" aria-describedby="inputSuccess2Status" placeholder="PESQUISAR">
+          <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+        </div>        
+      </form>
     </div><!--/.nav-collapse -->
 </nav>
 <nav class="navbar navbar-default navbar-static-top2">
@@ -164,6 +170,7 @@
 
 <div class="container cont-wrapper">
 
+<!-- BANNER -->
   <div class="row banner-init">
 	  <div class="col-md-6">
 		  <div class="banner-max ban-max-1">
@@ -185,6 +192,21 @@
 	  		</div>
 	  	</div>
 	  </div>
+  </div>
+
+  <!-- NEWS -->
+  <div class="row news">
+    <div class="col-md-4">
+      <div class="news-top-image">
+        <img src="http://digitalsea.com.br/teste_abril/4rodas/wp-content/themes/wp-abril/assets/images/news/news-1.png" class="img-responsive">
+      </div>
+      <div class="news-title">
+      </div>
+      <div class="news-desc">
+      </div>
+      <div class="news-link">
+      </div>
+    </div>
   </div>
 
 </div> <!-- /container -->
