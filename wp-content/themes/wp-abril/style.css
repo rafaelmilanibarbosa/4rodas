@@ -35,7 +35,7 @@ body {
   top: 0px;
   height: 80px;
   background: #e6e6e6 !important;
-  z-index: 999;
+  z-index: 999 !important;
 }
 .navbar-static-top {
   position: fixed !important;
