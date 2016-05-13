@@ -229,7 +229,12 @@ body {
 }
 .news .col-md-3 {
 	padding: 0px !important;
+	padding-left: 10px !important;
+	padding-right: 10px !important;
 }
 .news .col-md-3:first-child {
-	border: 1px solid #FF0000;
+	padding-left: 0px !important;
+}
+.news .col-md-3:last-child {
+	padding-right: 0px !important;
 }
