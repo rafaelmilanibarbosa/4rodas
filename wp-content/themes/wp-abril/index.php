@@ -1,4 +1,12 @@
 <?php  get_header(); ?>
+<!-- adds -->
+<nav class="navbar navbar-default navbar-static-top-init">
+  <div class="container">
+    <div class="navbar-header">
+    sadsad
+    </div>
+  </div>
+</nav>
 
 <!-- Static navbar -->
 <nav class="navbar navbar-default navbar-static-top">

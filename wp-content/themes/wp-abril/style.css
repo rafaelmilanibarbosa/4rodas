@@ -29,7 +29,17 @@ body {
 .uppercase {
 	text-transform: uppercase;
 }
+.navbar-static-top-init {
+  position: fixed;
+  width: 100%;		
+  top: 0px;
+  height: 80px;
+  background: #e6e6e6 !important;
+}
 .navbar-static-top {
+  position: fixed;
+  width: 100%;		
+  top: 80px;
   margin-bottom: 0px !important;
   height: 80px;
   background-color: #ed1c24 !important;
