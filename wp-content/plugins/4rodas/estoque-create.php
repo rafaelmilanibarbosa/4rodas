@@ -14,6 +14,7 @@ if(isset($_POST['insert'])){
 	);*/
 	
 	$insert =  $wpdb->query("INSERT INTO `Produto`(`nome`, `descricao`, `preco`) VALUES ('$nome', '$descricao', '$preco')");
+	print_r($insert);
 	$message.="Produto adicionado";
 }
 ?>
