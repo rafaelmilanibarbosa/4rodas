@@ -11,7 +11,7 @@ if(isset($_POST['insert'])){
 	$wpdb->insert(
 		'Produto', //table
 		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco), //data
-		array('%s','%s', '%s','%s') //data format			
+		array('%s', '%s','%s') //data format			
 	);
 	$message.="Produto adicionado";
 }
