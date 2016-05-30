@@ -15,7 +15,7 @@ if(isset($_POST['insert'])){
 	
 	$insert =  $wpdb->query("INSERT INTO `Produto`(`nome`, `descricao`, `preco`) VALUES ('$nome', '$descricao', '$preco')");
 	print_r($insert);
-	$message.="Produto adicionado";
+	$message.="Produto adicionado t";
 }
 ?>
 <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/4rodas/style-admin.css" rel="stylesheet" />
