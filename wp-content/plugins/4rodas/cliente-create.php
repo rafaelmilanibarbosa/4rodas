@@ -1,19 +1,19 @@
 <?php
-function estoque_create () {
+function cliente_create () {
 //$id 		= $_POST["id"];
 $nome 		= $_POST["nome"];
-$descricao 	= $_POST["descricao"];
-$preco 		= $_POST["preco"];
+$email 		= $_POST["email"];
+$telefone 	= $_POST["telefone"];
 
 //insert
 if(isset($_POST['insert'])){
 	global $wpdb;
 	$wpdb->insert(
-		'Produto', //table
-		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco) //data		
+		'Cliente', //table
+		array('nome' => $nome, 'email' => $email, 'telefone' => $telefone) //data		
 	);
 
-	$message.="Produto adicionado";
+	$message.="Cliente adicionado";
 }
 ?>
 <link type="text/css" href="<?php echo WP_PLUGIN_URL; ?>/4rodas/style-admin.css" rel="stylesheet" />
@@ -23,9 +23,9 @@ if(isset($_POST['insert'])){
 <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
 
 <table class='wp-list-table widefat fixed'>
-<tr><th>Produto</th><td><input type="text" name="nome" value="<?php echo $nome;?>"/></td></tr>
-<tr><th>Descrição</th><td><input type="text" name="descricao" value="<?php echo $descricao;?>"/></td></tr>
-<tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>
+<tr><th>Cliente</th><td><input type="text" name="nome" value="<?php echo $nome;?>"/></td></tr>
+<tr><th>E-mail</th><td><input type="text" name="email" value="<?php echo $email;?>"/></td></tr>
+<tr><th>Telefone</th><td><input type="text" name="telefone" value="<?php echo $telefone;?>"/></td></tr>
 </table>
 <input type='submit' name="insert" value='Salvar' class='button button-primary'>
 </form>

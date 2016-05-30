@@ -38,7 +38,7 @@ else{//selecting value to update
 <a class="button button-primary" href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
 
 <?php } else if($_POST['update']) {?>
-<div class="updated"><p>School updated</p></div>
+<div class="updated"><p>Cliente atualizado</p></div>
 <a class="button button-primary" href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
 
 <?php } else {?>
