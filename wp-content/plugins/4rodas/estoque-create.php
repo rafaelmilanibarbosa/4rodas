@@ -10,9 +10,9 @@ if(isset($_POST['insert'])){
 	global $wpdb;
 	$wpdb->insert(
 		'Produto', //table
-		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco), //data
-		array('%s', '%s','%s') //data format			
+		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco) //data		
 	);
+	
 	$message.="Produto adicionado";
 }
 ?>
