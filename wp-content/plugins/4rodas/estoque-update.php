@@ -35,11 +35,11 @@ else{//selecting value to update
 
 <?php if($_POST['delete']){?>
 <div class="updated"><p>Produto deletado</p></div>
-<a href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
+<a class="button button-primary" href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
 
 <?php } else if($_POST['update']) {?>
 <div class="updated"><p>School updated</p></div>
-<a href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
+<a class="button button-primary" href="<?php echo admin_url('admin.php?page=estoque_list')?>">&laquo; Voltar para lista de produtos</a>
 
 <?php } else {?>
 <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
