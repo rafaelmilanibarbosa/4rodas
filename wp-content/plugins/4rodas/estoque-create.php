@@ -29,7 +29,7 @@ if(isset($_POST['insert'])){
 <tr><th>Descrição</th><td><input type="text" name="descricao" value="<?php echo $descricao;?>"/></td></tr>
 <tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>
 </table>
-<input type='submit' name="insert" value='Salvar' class='button'>
+<input type='submit' name="insert" value='Salvar' class='button button-primary'>
 </form>
 </div>
 <?php

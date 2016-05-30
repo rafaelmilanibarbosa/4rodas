@@ -48,8 +48,8 @@ else{//selecting value to update
 <tr><th>Descrição</th><td><input type="text" name="descricao" value="<?php echo $descricao;?>"/></td></tr>
 <tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>
 </table>
-<input type='submit' name="update" value='Salvar' class='button'> &nbsp;&nbsp;
-<input type='submit' name="delete" value='Deletar' class='button' onclick="return confirm('Deletar este produto?')">
+<input type='submit' name="update" value='Salvar' class='button button-primary'> &nbsp;&nbsp;
+<input type='submit' name="delete" value='Deletar' class='button button-primary' onclick="return confirm('Deletar este produto?')">
 </form>
 <?php }?>
 
