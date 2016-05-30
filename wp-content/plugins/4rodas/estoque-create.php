@@ -1,6 +1,6 @@
 <?php
 function estoque_create () {
-$id 		= $_POST["id"];
+//$id 		= $_POST["id"];
 $nome 		= $_POST["nome"];
 $descricao 	= $_POST["descricao"];
 $preco 		= $_POST["preco"];
@@ -8,11 +8,12 @@ $preco 		= $_POST["preco"];
 //insert
 if(isset($_POST['insert'])){
 	global $wpdb;
-	$wpdb->insert(
+	/*$wpdb->insert(
 		'Produto', //table
 		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco) //data		
-	);
+	);*/
 	
+	$insert =  $wpdb->query("INSERT INTO `Produto`(`nome`, `descricao`, `preco`) VALUES ('$nome', '$descricao', '$preco')");
 	$message.="Produto adicionado";
 }
 ?>
