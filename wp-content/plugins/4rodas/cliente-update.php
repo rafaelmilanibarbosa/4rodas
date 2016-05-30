@@ -23,9 +23,9 @@ else if(isset($_POST['delete'])){
 else{//selecting value to update	
 	$produtos = $wpdb->get_results($wpdb->prepare("SELECT id, nome, email, telefone from Cliente where id=%s",$id));
 	foreach ($produtos as $p ){
-		$nome 		= $p->nome;
-		$descricao 	= $p->descricao;
-		$preco 		= $p->preco;
+		$nome 			= $p->nome;
+		$email 			= $p->email;
+		$telefone 		= $p->telefone;
 	}
 }
 ?>
