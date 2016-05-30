@@ -12,8 +12,8 @@ add_action('admin_menu','abril_controle_estoque');
 function abril_controle_estoque() {
 	
 	//this is the main item for the menu
-	add_menu_page('Abril', //page title
-	'Produtos', //menu title
+	add_menu_page('Abril - Produtos', //page title
+	'Abril - Produtos', //menu title
 	'manage_options', //capabilities
 	'estoque_list', //menu slug
 	'estoque_list' //function
@@ -26,6 +26,38 @@ function abril_controle_estoque() {
 	'manage_options', //capability
 	'estoque_create', //menu slug
 	'estoque_create'); //function
+
+	//this is a submenu
+	add_submenu_page('estoque_list', //parent slug
+	'Clientes', //page title
+	'Clientes', //menu title
+	'manage_options', //capability
+	'cliente_list', //menu slug
+	'cliente_list'); //function
+
+	//this is a submenu
+	add_submenu_page('estoque_list', //parent slug
+	'Adicionar Novo Cliente', //page title
+	'Adicionar Novo Cliente', //menu title
+	'manage_options', //capability
+	'cliente_create', //menu slug
+	'cliente_create'); //function
+
+	//this is a submenu
+	add_submenu_page('estoque_list', //parent slug
+	'Pedidos', //page title
+	'Pedidos', //menu title
+	'manage_options', //capability
+	'pedido_list', //menu slug
+	'pedido_list'); //function
+
+	//this is a submenu
+	add_submenu_page('estoque_list', //parent slug
+	'Adicionar Novo Pedido', //page title
+	'Adicionar Novo Pedido', //menu title
+	'manage_options', //capability
+	'pedido_create', //menu slug
+	'pedido_create'); //function
 	
 	//this submenu is HIDDEN, however, we need to add it anyways
 	add_submenu_page(null, //parent slug
@@ -34,6 +66,22 @@ function abril_controle_estoque() {
 	'manage_options', //capability
 	'estoque_update', //menu slug
 	'estoque_update'); //function
+
+	//this submenu is HIDDEN, however, we need to add it anyways
+	add_submenu_page(null, //parent slug
+	'Atualizar Cliente', //page title
+	'Atualizar Cliente', //menu title
+	'manage_options', //capability
+	'cliente_update', //menu slug
+	'cliente_update'); //function
+
+	//this submenu is HIDDEN, however, we need to add it anyways
+	add_submenu_page(null, //parent slug
+	'Atualizar Pedido', //page title
+	'Atualizar Pedido', //menu title
+	'manage_options', //capability
+	'pedido_update', //menu slug
+	'pedido_update'); //function
 }
 define('ROOTDIR', plugin_dir_path(__FILE__));
 require_once(ROOTDIR . 'estoque-list.php');
