@@ -29,8 +29,8 @@ function abril_controle_estoque() {
 
 	//this is a submenu
 	add_submenu_page('estoque_list', //parent slug
-	'Clientes', //page title
-	'Clientes', //menu title
+	'Abril - Clientes', //page title
+	'Abril - Clientes', //menu title
 	'manage_options', //capability
 	'cliente_list', //menu slug
 	'cliente_list'); //function
@@ -45,8 +45,8 @@ function abril_controle_estoque() {
 
 	//this is a submenu
 	add_submenu_page('estoque_list', //parent slug
-	'Pedidos', //page title
-	'Pedidos', //menu title
+	'Abril - Pedidos', //page title
+	'Abril - Pedidos', //menu title
 	'manage_options', //capability
 	'pedido_list', //menu slug
 	'pedido_list'); //function
