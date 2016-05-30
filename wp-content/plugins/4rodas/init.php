@@ -91,7 +91,3 @@ require_once(ROOTDIR . 'estoque-update.php');
 require_once(ROOTDIR . 'cliente-list.php');
 require_once(ROOTDIR . 'cliente-create.php');
 require_once(ROOTDIR . 'cliente-update.php');
-
-require_once(ROOTDIR . 'pedido-list.php');
-require_once(ROOTDIR . 'pedido-create.php');
-require_once(ROOTDIR . 'pedido-update.php');
