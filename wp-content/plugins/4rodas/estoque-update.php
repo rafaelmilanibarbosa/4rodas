@@ -49,7 +49,7 @@ else{//selecting value to update
 <tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>
 </table>
 <input type='submit' name="update" value='Salvar' class='button button-primary'> &nbsp;&nbsp;
-<input type='submit' name="delete" value='Deletar' class='button button-primary' onclick="return confirm('Deletar este produto?')">
+<input type='submit' name="delete" value='Deletar' class='button button-primary button-delete' onclick="return confirm('Deletar este produto?')">
 </form>
 <?php }?>
 
