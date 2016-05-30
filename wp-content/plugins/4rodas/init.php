@@ -1,19 +1,19 @@
 <?php
 /*
-Plugin Name: 4 Rodas Esatoque
-Description: Plugin 4 Rodas Controle de Estoque
+Plugin Name: Abril Rodas Esatoque
+Description: Plugin Abril Controle de Estoque
 Version: 1
 Author: rafaelmilanib@gmail.com
 Author URI: https://br.linkedin.com/in/raphaelbarbosa
 */
 
 //menu items
-add_action('admin_menu','4rodas_controle_estoque');
-function 4rodas_controle_estoque() {
+add_action('admin_menu','abril_controle_estoque');
+function abril_controle_estoque() {
 	
 	//this is the main item for the menu
-	add_menu_page('4 Rodas', //page title
-	'4 Rodas', //menu title
+	add_menu_page('Abril', //page title
+	'Abril', //menu title
 	'manage_options', //capabilities
 	'estoque_list', //menu slug
 	'estoque_list' //function
