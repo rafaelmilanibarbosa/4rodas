@@ -10,7 +10,7 @@ if(isset($_POST['insert'])){
 	global $wpdb;
 	$wpdb->insert(
 		'Produto', //table
-		array('id' => $id,'nome' => $nome, 'descricao' => $descricao, 'preco' => $preco), //data
+		array('nome' => $nome, 'descricao' => $descricao, 'preco' => $preco), //data
 		array('%s','%s', '%s','%s') //data format			
 	);
 	$message.="Produto adicionado";
@@ -21,9 +21,8 @@ if(isset($_POST['insert'])){
 <h2>Adicionar novo Produto</h2>
 <?php if (isset($message)): ?><div class="updated"><p><?php echo $message;?></p></div><?php endif;?>
 <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
-<p>Three capital letters for the ID</p>
+<p>3 Letras maiúsculas para ID</p>
 <table class='wp-list-table widefat fixed'>
-<tr><th>ID</th><td><input type="text" name="id" value="<?php echo $id;?>"/></td></tr>
 <tr><th>Produto</th><td><input type="text" name="nome" value="<?php echo $nome;?>"/></td></tr>
 <tr><th>Descrição</th><td><input type="text" name="descricao" value="<?php echo $descricao;?>"/></td></tr>
 <tr><th>Preço</th><td><input type="text" name="preco" value="<?php echo $preco;?>"/></td></tr>

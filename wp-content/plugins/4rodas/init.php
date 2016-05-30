@@ -22,7 +22,7 @@ function abril_controle_estoque() {
 	//this is a submenu
 	add_submenu_page('estoque_list', //parent slug
 	'Adicionar Novo Produto', //page title
-	'Adicionar Novo', //menu title
+	'Adicionar Novo Produto', //menu title
 	'manage_options', //capability
 	'estoque_create', //menu slug
 	'estoque_create'); //function
@@ -30,7 +30,7 @@ function abril_controle_estoque() {
 	//this submenu is HIDDEN, however, we need to add it anyways
 	add_submenu_page(null, //parent slug
 	'Atualizar Produto', //page title
-	'Atualizar', //menu title
+	'Atualizar Produto', //menu title
 	'manage_options', //capability
 	'estoque_update', //menu slug
 	'estoque_update'); //function
