@@ -1,11 +1,11 @@
 .widefat {width: auto;}
 
 .button-delete, .button-delete:hover, .button-delete:active, .button-delete:focus {
-	background: #BA1A00;
-    border-color: #771101 #771101 #771101;
-    -webkit-box-shadow: 0 1px 0 #771101;
-    box-shadow: 0 1px 0 #771101;
+	background: #BA1A00 !important;
+    border-color: #771101 #771101 #771101 !important;
+    -webkit-box-shadow: 0 1px 0 #771101 !important;
+    box-shadow: 0 1px 0 #771101 !important;
     color: #fff;
     text-decoration: none;
-    text-shadow: 0 -1px 1px #BA1A00,1px 0 1px #BA1A00,0 1px 1px #BA1A00,-1px 0 1px #BA1A00;
+    text-shadow: 0 -1px 1px #BA1A00,1px 0 1px #BA1A00,0 1px 1px #BA1A00,-1px 0 1px #BA1A00 !important;
 }
